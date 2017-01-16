@@ -6370,10 +6370,14 @@ header {
   font-size: 2rem;
   color: #FFEB3B; }
 
+h3 {
+  font-family: Oswald;
+  font-size: 1.5rem;
+  color: #212121; }
+
 #map-canvas {
   width: 100%;
-  height: 70%;
-  position: absolute;
-  z-index: 0; }
+  height: 100%;
+  position: absolute; }
 
 /*# sourceMappingURL=main.css.map */

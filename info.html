@@ -7,34 +7,40 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col s12 m12 l12">
-				<h3 class="center-align">Como se recicla</h3>	
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m12 l12">
+					<h1 class="center">¿Cómo se recicla?</h1>	
+				</div>	
+			</div>
+		</div>			
+	</header>
+	<section>
+		<div class="container">
+			<div class="row"><!--botella seleccionada-->	
+				<div class="col s4 m4 l4">
+					<img src="img/simbolo-triangular-de-reciclaje-de-rotacion-tres-flechas_318-65546.jpg" alt="" class="responsive-img" width="80px">
+				</div>
+				<div class="col s6 m6 l6">
+					<h3>Intrucciones Adicionales</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col s12 m12 l12">
+				<h3 class="center">Lugares de reciclaje</h3>
+				</div>
 			</div>	
 			<div class="row">
-				<img src="img/simbolo-triangular-de-reciclaje-de-rotacion-tres-flechas_318-65546.jpg" alt="" class="responsive-img">
-				<!--botella seleccionada-->		
+				<div class="col s6 m6 l6" id="map-canvas"></div>
 			</div>
-		</div>
-		
-
-		<div class="row">
-			<div class="col s12 m12 l12">
-				<h5 class="center-align">Intrucciones Adicionales</h5>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col s12 m12 l12">
-			<h5 class="center-align">Lugares de reciclaje</h5>
-		</div>
-	</div>	
-	<div class="row">
-		<div class="col s12 m12 l12" id="map-canvas">
-
-		</div>
-	</div>
+		</div>	<!--titulo y mapa-->
+	</section>
+	
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyDjhLZdzD1Knb8c128oNAJ8cwO6lqYieu8"></script>
