@@ -6364,11 +6364,18 @@ header {
     font-family: Oswald;
     font-size: 3rem;
     color: #FFEB3B; }
+  header input[type=search] {
+    border-bottom: 2px solid #FFEB3B;
+    margin-top: 38px; }
+  header .buscar {
+    color: #FFEB3B; }
 
 #recent h2 {
   font-family: Oswald;
   font-size: 2rem;
   color: #FFEB3B; }
+#recent .img-recientes {
+  padding: 5%; }
 
 h3 {
   font-family: Oswald;
@@ -6376,8 +6383,18 @@ h3 {
   color: #212121; }
 
 #map-canvas {
-  width: 100%;
+  width: 50%;
   height: 100%;
   position: absolute; }
+
+.row-info {
+  margin-bottom: 0px !important; }
+
+.izquierda {
+  margin-top: 20px; }
+
+@media (max-width: 600px) {
+  #map-canvas {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

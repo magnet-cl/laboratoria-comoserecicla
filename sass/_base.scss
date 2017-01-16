@@ -10,11 +10,22 @@ header {
 	h1 {
 		@include typography($title-typ, 3rem, $accent-color);
 	}
+	input[type=search]{
+		border-bottom:2px solid $accent-color;
+		margin-top:38px;
+	}
+	.buscar{
+		color:$accent-color;
+	}
 }
+
 
 #recent {
 	h2 {
 		@include typography($title-typ, 2rem, $accent-color);
+	}
+	.img-recientes{
+		padding:5%;	
 	}
 }
 
@@ -24,8 +35,21 @@ h3 {
 
 //mapa
 #map-canvas {
-    width: 100%;
+    width: 50%;
     height: 100%;
     position: absolute;
 }
 
+.row-info{
+	margin-bottom:0px !important;
+}
+
+.izquierda{
+	margin-top:20px;
+}
+
+@media (max-width: 600px) {
+	#map-canvas {
+		width: 100%;
+	}
+}
