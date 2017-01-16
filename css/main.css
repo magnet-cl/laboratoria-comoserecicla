@@ -6364,11 +6364,18 @@ header {
     font-family: Oswald;
     font-size: 2.5rem;
     color: #FFEB3B; }
+  header input[type=search] {
+    border-bottom: 2px solid #FFEB3B;
+    margin-top: 38px; }
+  header .buscar {
+    color: #FFEB3B; }
 
 #recent h2 {
   font-family: Oswald;
   font-size: 2rem;
   color: #FFEB3B; }
+#recent .img-recientes {
+  padding: 5%; }
 
 .title-secondary {
   font-family: Oswald;
