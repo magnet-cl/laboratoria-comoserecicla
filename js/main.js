@@ -8,3 +8,4 @@ $(document).ready(function(){
   var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 });
 //mapa
+$('#search').attr({ value: '' });
