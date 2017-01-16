@@ -1,0 +1,7 @@
+//Texts
+
+@mixin typography ($typo, $size, $align){
+	font-family: $typo;
+	font-size: $size;
+	text-align: $align;
+}
