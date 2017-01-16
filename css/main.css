@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald");
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -6354,5 +6355,15 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
+.container {
+  margin-bottom: 200px; }
+
+#map-canvas {
+  width: 100%;
+  position: absolute;
+  top: 70px;
+  bottom: -300px;
+  border: 2px solid red;
+  z-index: 0; }
 
 /*# sourceMappingURL=main.css.map */
