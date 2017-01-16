@@ -6362,7 +6362,7 @@ header {
   background-color: #0097A7; }
   header h1 {
     font-family: Oswald;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #FFEB3B; }
 
 #recent h2 {
@@ -6370,9 +6370,9 @@ header {
   font-size: 2rem;
   color: #FFEB3B; }
 
-h3 {
+.title-secondary {
   font-family: Oswald;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #212121; }
 
 #map-canvas {

@@ -8,7 +8,7 @@
 header {
 	background-color: $primary-color-dark;
 	h1 {
-		@include typography($title-typ, 3rem, $accent-color);
+		@include typography($title-typ, 2.5rem, $accent-color);
 	}
 }
 
@@ -18,8 +18,8 @@ header {
 	}
 }
 
-h3 {
-	@include typography($title-typ, 1.5rem, $primary-text-color);
+.title-secondary {
+	@include typography($title-typ, 2rem, $primary-text-color);
 }
 
 //mapa
