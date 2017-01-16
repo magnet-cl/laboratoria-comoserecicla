@@ -6358,12 +6358,4 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .container {
   margin-bottom: 200px; }
 
-#map-canvas {
-  width: 100%;
-  position: absolute;
-  top: 70px;
-  bottom: -300px;
-  border: 2px solid red;
-  z-index: 0; }
-
 /*# sourceMappingURL=main.css.map */
