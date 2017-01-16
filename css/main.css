@@ -6370,4 +6370,10 @@ header {
   font-size: 2rem;
   color: #FFEB3B; }
 
+#map-canvas {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  z-index: 0; }
+
 /*# sourceMappingURL=main.css.map */
