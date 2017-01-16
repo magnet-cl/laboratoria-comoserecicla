@@ -1,0 +1,31 @@
+
+.pd {
+	padding: 5% 0;
+}
+
+//Header
+
+header {
+	background-color: $primary-color-dark;
+	h1 {
+		@include typography($title-typ, 3rem, $accent-color);
+	}
+}
+
+#recent {
+	h2 {
+		@include typography($title-typ, 2rem, $accent-color);
+	}
+}
+
+h3 {
+	@include typography($title-typ, 1.5rem, $primary-text-color);
+}
+
+//mapa
+#map-canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
