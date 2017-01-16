@@ -35,8 +35,21 @@ h3 {
 
 //mapa
 #map-canvas {
-    width: 100%;
+    width: 50%;
     height: 100%;
     position: absolute;
 }
 
+.row-info{
+	margin-bottom:0px !important;
+}
+
+.izquierda{
+	margin-top:20px;
+}
+
+@media (max-width: 600px) {
+	#map-canvas {
+		width: 100%;
+	}
+}
