@@ -6362,7 +6362,7 @@ header {
   background-color: #0097A7; }
   header h1 {
     font-family: Oswald;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #FFEB3B; }
   header input[type=search] {
     border-bottom: 2px solid #FFEB3B;
@@ -6377,9 +6377,9 @@ header {
 #recent .img-recientes {
   padding: 5%; }
 
-h3 {
+.title-secondary {
   font-family: Oswald;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #212121; }
 
 #map-canvas {

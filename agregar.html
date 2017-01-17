@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Como se Recicla</title>
+	<title>¿Cómo se recicla?</title>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -13,45 +13,49 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12 m12">
-					<h4>Cómo se Recicla...</h4>
-					<h3>Agregar nuevo</h3>
+					<h1>¿Cómo se recicla?</h1>
+					<h2>Agregar nuevo</h2>
 					<form action="#">
 						<div class="imput-fiel">
-							<input type="text" id="nombre">
-							<label for="nombre">NOMBRE:</label>
+							<input type="text" id="name" placeholder="Nombre">
 						</div>
 
 						<div class="imput-fiel">
-							<input type="text" id="descripcion">
-							<label for="descripcion">DESCRIPCIÓN:</label>
+							<textarea type="text" id="description" placeholder="Descripción del producto" class="materialize-textarea"></textarea>
 						</div>
 						<div class="imput-fiel">
-							<input type="text" id="Instrucciones">
-							<label for="instrucciones">INSTRUCCIONES ADICIONALES:</label>
+							<textarea type="text" id="steps" placeholder="Instrucciones adicionales para reciclaje" class="materialize-textarea"></textarea>
 						</div>
 					</form>
 				</div>
 			</div>	
-
 			<div class="row">
-				<div class="COL s4 m4">
-					<h5>Ímagenes</h5>
-					<div class="col s6 m4">
-						<img src="img/simbolo-triangular-de-reciclaje-de-rotacion-tres-flechas_318-65546.jpg">
-					</div>
-					<div class="col s6 m4">
-						<img src="img/simbolo-triangular-de-reciclaje-de-rotacion-tres-flechas_318-65546.jpg">
-					</div>
-
+				<div class="col s12">
+					<h5>Imágenes</h5>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col s6 m3">
+				</div>
+				<div class="col s6 m3">
+				</div>
+				<div class="col s6 m3">
+				</div>
+				<div class="col s6 m3">
+					<a href="#"><i class="medium material-icons">queue</i></a>
 				</div>
 			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
 			<form action="#">
 				<div class="imput-fiel">
-				<input type="image" name="image">
+					<input type="image" name="image">
 				</div>
 			</form>
 			<div class="row">
-				<h3>Materiales</h3>
+				<h2>Materiales</h2>
 				<form action="#">
 
 					<p>
@@ -87,7 +91,6 @@
 				</div>
 			</div>
 		</div>
-
 		<!--fin tercera parte-->
 	</section>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

@@ -17,20 +17,17 @@ $('#search').keyup(function(event) {
 });
 		
 
-
-	});
-
 window.template = function(templateName, context) {
-  var html = $('#' + templateName).html();
+	var html = $('#' + templateName).html();
 
-  for (var p in context) {
-    if (!context.hasOwnProperty(p)) {
-      continue;
-    }
-    html = html.replace(new RegExp(':' + p, 'g'), context[p]);
-  }
+	for (var p in context) {
+		if (!context.hasOwnProperty(p)) {
+			continue;
+		}
+		html = html.replace(new RegExp(':' + p, 'g'), context[p]);
+	}
 
-  return $(html);
+	return $(html);
 };
 
 
