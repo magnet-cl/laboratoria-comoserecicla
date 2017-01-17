@@ -1,18 +1,14 @@
 $(document).ready(function(){
-var products = "";
-var url = "";
-
-var dibujaProd
 
 $('#search').keyup(function(event) {
 	/* Act on the event */
 	$.ajax({
-			url: 'http://10.77.3.77:3000/search.json',
-			data: {q: 'botella'},
+			url: 'http://162.243.136.119:8080/search.json',
+			data: {q: $("#search").val()},
 			success: function(products) {
 	   		console.log(products);
+	   		$("#recent").html(' ');
 	   		products.forEach(function(product){
-	   			$("#recent").html('');
 	   			$("#recent").append(template("product-template", product));
 	   			$("#suggest").addClass('hidden');
 	   		});
@@ -20,13 +16,6 @@ $('#search').keyup(function(event) {
 		})
 });
 		
-
-
-
-
-
-
-
 
 
 	});
